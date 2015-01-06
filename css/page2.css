@@ -1,0 +1,530 @@
+@charset "UTF-8";
+body {
+  background: url(../images/bg2.jpg);
+  background-color:#000;
+}
+
+/*#noindexbg{
+    width:1200px;
+    height:600px;
+    z-index:99;
+    background-color:#3F0;
+}*/
+
+#container .descbar {
+  bottom: 170px;
+}
+
+#container .menu2bar{
+    background-color:transparent;
+}
+
+#container .menu2bar .innerWrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#container .descbar2 {
+  width: 100%;
+  position: absolute;
+  bottom: 201px;
+}
+#container .descbar2 .innerWrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+  height: 420px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#container .descbar2 .innerWrapper .pic {
+  display: inline-block;
+  width: 333px;
+  height: 420px;
+  background: url(../images/pic_bg.png) repeat-y;
+}
+#container .descbar2 .innerWrapper .pic .picBox {
+  float: right;
+  margin-top: 75px;
+  background-color: rgba(237, 225, 197, 0.302);
+  width: 189px;
+  height: 280px;
+}
+#container .descbar2 .innerWrapper .pic .picBox img {
+  margin: 3px;
+}
+#container .descbar2 .innerWrapper .mainText {
+  float: right;
+  display: block;
+  width: 646px;
+  margin-top: 70px;
+  vertical-align: top;
+  color: #ede1c5;
+}
+#container .descbar2 .innerWrapper .mainText h3, #container .descbar2 .innerWrapper .mainText h4 {
+  margin: 0;
+  display: inline-block;
+}
+#container .descbar2 .innerWrapper .mainText .close {
+  float: right;
+  margin-right: 70px;
+  margin-top: 13px;
+}
+#container .descbar2 .innerWrapper .mainText hr {
+  margin: 0;
+  border-bottom: 1px;
+  margin: -7px 0 0 -23px;
+  opacity: .8;
+}
+#container .descbar2 .innerWrapper .mainText h3 {
+  font-size: 35px;
+  font-family: "Century";
+  font-weight: normal;
+  letter-spacing: -2px;
+}
+#container .descbar2 .innerWrapper .mainText h4 {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "新細明體", "PMingLiU";
+}
+#container .descbar2 .innerWrapper .mainText p {
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+
+.mapLink a:link{
+    display:inline-block;   
+    width:144px;
+    height:26px;
+    background-image:url(../images/page2/nav.png);
+    background-repeat:no-repeat;
+}
+.mapLink a:hover{
+    width:144px;
+    height:26px;
+    background-image:url(../images/page2/nav02.png);
+    background-repeat:no-repeat;
+}
+.googleLink a:link{
+    display:inline-block;   
+    width:144px;
+    height:26px;
+    background-image:url(../images/page2/link.png);
+    background-repeat:no-repeat;
+}
+.googleLink a:hover{
+    width:144px;
+    height:26px;
+    background-image:url(../images/page2/link02.png);
+    background-repeat:no-repeat;
+}
+
+
+/*member會員專屬*/
+
+.member1_1btn a:link{
+    display:block;
+    margin-top:40px;      
+    width:158px;
+    height:26px;
+    background-image:url(../images/page2/member01_1.png);
+    background-repeat:no-repeat;
+}
+.member1_1btn a:hover{
+    width:158px;
+    height:26px;
+    background-image:url(../images/page2/member01_1_a.png);
+    background-repeat:no-repeat;
+}
+
+.member3_btn a:link{
+    display:block;    
+    width:230px;
+    height:26px;
+    background-image:url(../images/page2/member03_1.png);
+    background-repeat:no-repeat;
+}
+.member3_btn a:hover{
+    width:230px;
+    height:26px;
+    background-image:url(../images/page2/member03_1_a.png);
+    background-repeat:no-repeat;
+}
+
+.member04_tel{
+    display:block;
+    border-bottom:1px solid rgba(237, 225, 197, 0.5);
+    padding:4px 0;
+}
+/* 服務項目*/
+.service1_btn a:link{/*視聽設備價格表*/
+    display:block;    
+    width:170px;
+    height:26px;
+    background-image:url(../images/page2/service01_1.png);
+    background-repeat:no-repeat;
+}
+.service1_btn a:hover{
+    width:170px;
+    height:26px;
+    background-image:url(../images/page2/service01_1_a.png);
+    background-repeat:no-repeat;
+}
+.service4_1btn a{/*中式菜單導覽*/
+    display:block;    
+    width:170px;
+    height:26px;
+    background:transparent url(../images/page2/service04_1.png) center top no-repeat;
+    background-repeat:no-repeat;
+}
+.service4_1btn a.act{
+    width:170px;
+    height:26px;
+    background-image:url(../images/page2/service04_1_a.png);
+    background-repeat:no-repeat;
+}
+.service4_1btn a:hover{
+    width:170px;
+    height:26px;
+    background-image:url(../images/page2/service04_1_a.png);
+    background-repeat:no-repeat;
+}
+
+.service4_2btn a{/*西式菜單導覽*/
+    margin-top:10px;
+    display:block;    
+    width:170px;
+    height:26px;
+    background-image:url(../images/page2/service04_2.png);
+    background-repeat:no-repeat;
+}
+.service4_2btn a.act{
+    width:170px;
+    height:26px;
+    background-image:url(../images/page2/service04_2_a.png);
+    background-repeat:no-repeat;
+}
+.service4_2btn a:hover{
+    width:170px;
+    height:26px;
+    background-image:url(../images/page2/service04_2_a.png);
+    background-repeat:no-repeat;
+}
+/*喜宴專案*/
+.wedding1_1btn a:link{
+    margin-top:10px;
+    display:block;    
+    width:160px;
+    height:26px;
+    background-image:url(../images/page2/wedding01_1.png);
+    background-repeat:no-repeat;
+}
+.wedding1_1btn a:hover{
+    width:160px;
+    height:26px;
+    background-image:url(../images/page2/wedding01_1_a.png);
+    background-repeat:no-repeat;
+}
+.wedding2_1btn a:link{
+    margin-top:10px;
+    display:block;    
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/wedding02_1.png);
+    background-repeat:no-repeat;
+}
+.wedding2_1btn a:hover{
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/wedding02_1_a.png);
+    background-repeat:no-repeat;
+}
+.wedding2_2btn a:link{
+    margin-top:10px;
+    display:block;    
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/wedding02_2.png);
+    background-repeat:no-repeat;
+}
+.wedding2_2btn a:hover{
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/wedding02_2_a.png);
+    background-repeat:no-repeat;
+}
+.wedding2_3btn a:link{
+    margin-top:10px;
+    display:block;    
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/wedding02_3.png);
+    background-repeat:no-repeat;
+}
+.wedding2_3btn a:hover{
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/wedding02_3_a.png);
+    background-repeat:no-repeat;
+}
+.wedding4_1btn a:link{
+    margin-top:10px;
+    display:block;    
+    width:240px;
+    height:26px;
+    background-image:url(../images/page2/wedding04_1.png);
+    background-repeat:no-repeat;
+}
+.wedding4_1btn a:hover{
+    width:240px;
+    height:26px;
+    background-image:url(../images/page2/wedding04_1_a.png);
+    background-repeat:no-repeat;
+}
+.wedding4_2btn a:link{
+    margin-top:10px;
+    display:block;    
+    width:240px;
+    height:26px;
+    background-image:url(../images/page2/wedding04_2.png);
+    background-repeat:no-repeat;
+}
+.wedding4_2btn a:hover{
+    width:240px;
+    height:26px;
+    background-image:url(../images/page2/wedding04_2_a.png);
+    background-repeat:no-repeat;
+}
+/* 實景介紹 */
+.spaces1_1btn a:link{
+    margin-top:10px;
+    display:block;    
+    width:132px;
+    height:26px;
+    background-image:url(../images/page2/spaces01_1.png);
+    background-repeat:no-repeat;
+}
+.spaces1_1btn a:hover{
+    width:132px;
+    height:26px;
+    background-image:url(../images/page2/spaces01_1_a.png);
+    background-repeat:no-repeat;
+}
+/* 最新消息 */
+.news1_1btn a:link{
+    margin-top:10px;
+    display:block;    
+    width:132px;
+    height:26px;
+    background-image:url(../images/page2/news01_1.png);
+    background-repeat:no-repeat;
+}
+.news1_1btn a:hover{
+    width:132px;
+    height:26px;
+    background-image:url(../images/page2/news01_1_a.png);
+    background-repeat:no-repeat;
+}
+
+.news2_1btn a:link{
+    margin-top:10px;
+    display:block;    
+    width:132px;
+    height:26px;
+    background-image:url(../images/page2/news02_1.png);
+    background-repeat:no-repeat;
+}
+.news2_1btn a:hover{
+    width:132px;
+    height:26px;
+    background-image:url(../images/page2/news02_1_a.png);
+    background-repeat:no-repeat;
+}
+/* Information */
+.information1_1btn a:link{
+    margin-top:10px;
+    margin-right:20px;
+    float:left;  
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_1.png);
+    background-repeat:no-repeat;
+}
+.information1_1btn a:hover{
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_1_a.png);
+    background-repeat:no-repeat;
+}
+.information1_2btn a:link{
+    margin-top:10px;
+    margin-right:20px;
+    float:left;       
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_2.png);
+    background-repeat:no-repeat;
+}
+.information1_2btn a:hover{
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_2_a.png);
+    background-repeat:no-repeat;
+}
+.information1_3btn a:link{
+    margin-top:10px;
+    margin-right:20px;
+    float:left;   
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_3.png);
+    background-repeat:no-repeat;
+}
+.information1_3btn a:hover{
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_3_a.png);
+    background-repeat:no-repeat;
+}
+.information1_4btn a:link{
+    margin-top:10px;
+    margin-right:20px;
+    float:left;   
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_4.png);
+    background-repeat:no-repeat;
+}
+.information1_4btn a:hover{
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_4_a.png);
+    background-repeat:no-repeat;
+}
+.information1_5btn a:link{
+    margin-top:10px;
+    margin-right:20px;
+    float:left;   
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_5.png);
+    background-repeat:no-repeat;
+}
+.information1_5btn a:hover{
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_5_a.png);
+    background-repeat:no-repeat;
+}
+.information1_6btn a:link{
+    margin-top:10px;
+    margin-right:20px;
+    float:left;   
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_1.png);
+    background-repeat:no-repeat;
+}
+.information1_6btn a:hover{
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_6_a.png);
+    background-repeat:no-repeat;
+}
+.information1_7btn a:link{
+    margin-top:10px;
+    margin-right:20px;
+    float:left;   
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_7.png);
+    background-repeat:no-repeat;
+}
+.information1_7btn a:hover{
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_7_a.png);
+    background-repeat:no-repeat;
+}
+.information1_8btn a:link{
+    margin-top:10px;
+    margin-right:20px;
+    float:left;   
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_8.png);
+    background-repeat:no-repeat;
+}
+.information1_8btn a:hover{
+    width:280px;
+    height:26px;
+    background-image:url(../images/page2/information01_8_a.png);
+    background-repeat:no-repeat;
+}
+.information3_1btn a:link{
+    margin-top:10px;
+    margin-right:20px;
+    float:left;   
+    width:132px;
+    height:26px;
+    background-image:url(../images/page2/information03_1.png);
+    background-repeat:no-repeat;
+}
+.information3_1btn a:hover{
+    width:132px;
+    height:26px;
+    background-image:url(../images/page2/information03_1_a.png);
+    background-repeat:no-repeat;
+}
+
+/*member影音專區*/
+
+.media1_1btn a:link{
+    display:block;
+    margin-top:40px;      
+    width:158px;
+    height:26px;
+    background-image:url(../images/page2/member01_1.png);
+    background-repeat:no-repeat;
+}
+.media1_1btn a:hover{
+    width:158px;
+    height:26px;
+    background-image:url(../images/page2/media1_1_a.png);
+    background-repeat:no-repeat;
+}
+
+
+.sp_text{
+    display:block;
+    margin-top:20px;
+    font-size:12px;
+    line-height:20px;
+}
+.inputStyle{
+    background-color:#ede1c5;
+    padding:2px 4px;
+    border:none;
+    height:20px;    
+}
+
+.textareaStyle{
+    background-color:#ede1c5;
+    padding:4px;
+    border:none;
+    width:412px;        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=page2.css.map */
